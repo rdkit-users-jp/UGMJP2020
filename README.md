@@ -1,36 +1,23 @@
-## Welcome to GitHub Pages
+# UGM JP 2020
+10 June, 2020
 
-You can use the [editor on GitHub](https://github.com/rdkit-users-jp/UGMJP_2020/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+XXX,
+Tokyo Japan
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Logistics and important information:
+**Hotel Suggestions** See the [PDF](Info/RDKit_UGM_JP_2020_Hotel_Recommendations.pdf) file
 
-### Markdown
+**Public Transport Cheat Sheet** See the [PDF](Info/public_transport_info.pdf) file for further information. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Sightseeing Cheat Sheet** See the [PDF](Info/sightseeing_info.pdf) file for further information
 
-```markdown
-Syntax highlighted code block
+**Event Information** See the [PDF](Info/general_info.pdf) file for further information
 
-# Header 1
-## Header 2
-### Header 3
+## Draft agenda is available
+The draft agenda with the allocated time blocks is available [here](Info/Draft_Agenda.pdf)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rdkit-users-jp/UGMJP_2020/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Organisation Committee (alphabetical order)**  
+Ryuichi Kubo
 
 ### Support or Contact
 
