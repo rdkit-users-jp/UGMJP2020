@@ -1,0 +1,20 @@
+items:
+- title: Logistics and important information
+  subfolderitems:
+      - title: Hotel Suggestions
+        context: See the link for further information.
+        url: http://XXX
+      - title: Public Transport Cheat Sheet
+        context: See the link for further information.
+        url: http://YYY
+      - title: Sightseeing Cheat Sheet
+        context: See the link for further information.
+        url: http://ZZZ
+      - title: Event Information
+        context: See the link for further information.
+        url: http://HogeHoge
+- title: Draft agenda is available
+  subfolderitems:
+      - context: The drawft agenda with the allocated time blocks is available below.
+        url: http://FugaFuga
+

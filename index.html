@@ -1,0 +1,34 @@
+---
+layout: default
+title: Home
+committee: 
+- name: [Ryuichi Kubo, Ohkawa, Serizawa]
+---
+<h1>
+UGM JP 2020
+</h1>
+10 June, 2020<br>
+XXX, Tokyo Japan
+
+{% for item in site.data.navigations.items %}
+<p>
+<h2>{{ item.title }}</h2>
+{% for subitem in item.subfolderitems %}
+    {% if subitem.title %}
+        <h3>{{ subitem.title }}</h3>
+    {% endif %}
+    {% if subitem.context %}
+        {{ subitem.context }}
+    {% endif %}
+    {% if subitem.url %}
+        <br><a href="{{ subitem.url }}">{{ subitem.url }}</a>
+    {% endif %}
+{% endfor %}
+</p>
+{% endfor %}
+
+<h3>Organisation Committee (alphabetical order)</h3>
+{% for name in committee.name %}
+{{ name }} 
+{% endfor %}
+
