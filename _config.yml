@@ -2,7 +2,7 @@ title: UGM JP 2020
 description: > # this means to ignore newlines until "baseurl:"
   Your description
 baseurl: "" # the subpath of your site, e.g. /blog
-url: yamasakih.github.io/UGMJP2020 # the base hostname & protocol for your site
+url: UGMJP2020 # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
