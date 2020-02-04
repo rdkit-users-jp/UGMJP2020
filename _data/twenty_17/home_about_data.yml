@@ -1,0 +1,35 @@
+- inverted: 
+  img: icon-about.jpeg
+  name: Theme, Vision, Mission
+  info: Coming soon
+  link: #
+
+- inverted: timeline-inverted
+  img: icon-agenda.jpeg
+  name: Agenda
+  info: Coming soon
+  link: #
+
+- inverted: 
+  img: icon-team.jpeg
+  name: Team
+  info: Coming soon
+  link: #
+
+- inverted: timeline-inverted
+  img: icon-venue.jpeg
+  name: Venue
+  info: Coming soon
+  link: #
+
+- inverted: 
+  img: icon-faq.jpeg
+  name: FAQs
+  info: Coming soon
+  link: #
+
+- inverted: timeline-inverted
+  img: booklet-icon.png
+  name: Event Booklet
+  info: Coming soon
+  link: #
