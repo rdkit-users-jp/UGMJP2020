@@ -1,30 +1,17 @@
-title: UGM JP 2020
-description: > # this means to ignore newlines until "baseurl:"
-  Your description
-baseurl: "/UGMJP2020" # the subpath of your site, e.g. /blog
-url: "https://rdkit-users-jp.github.io" # the base hostname & protocol for your site
-# Build settings
-markdown: kramdown
+title: RDKit User Group Meeting 2020
+description: >
+  UGM JP 2020 is the 1st international user group meeting about RDKit in Japan. We are holding in June 2020. Please check the tickets on official WEB.
+baseurl: "/UGMJP2020"
+url: "https://rdkit-users-jp.github.io"
 
-facebook:
-  app_id: 
+image: https://user-images.githubusercontent.com/7918702/75224128-41238780-57eb-11ea-8ab0-f90608790b0d.png
+logo: http://rdkit-users.jp/UGMJP2020/css/2017_style/img/logos/rdkit-logo.png
 
-logo: "{{ site.baseurl }}/css/2016_style/img/icon-large.png"
-
-social: 
-  name: Your Facebook Page
-  link: "https://www.facebook.com/"
-
-google_site_verification: googleXXXXXXXXXXXXXXXX.html
-
-include: ['_2016_pages', '_2017_pages']
+include: ['_2017_pages']
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-
-# Build settings
 markdown: kramdown
 permalink: pretty
