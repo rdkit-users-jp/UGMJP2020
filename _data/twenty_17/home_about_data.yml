@@ -19,8 +19,8 @@
 - inverted: timeline-inverted
   img: icon-venue.jpeg
   name: Venue
-  info: Coming soon
-  link: #
+  info: Tokyo Tech Campus Innovation Center on Tokyo Tech Tamachi Campus
+  link: https://www.titech.ac.jp/english/maps/tamachi/
 
 - inverted: 
   img: icon-faq.jpeg
