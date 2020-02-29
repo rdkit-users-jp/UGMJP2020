@@ -13,14 +13,14 @@
 - inverted: 
   img: icon-team.jpeg
   name: Team
-  info: Coming soon
-  link: #
+  info: rdkit-users-jp
+  link: http://rdkit-users.jp/
 
 - inverted: timeline-inverted
   img: icon-venue.jpeg
   name: Venue
-  info: Coming soon
-  link: #
+  info: Tokyo Tech Campus Innovation Center on Tokyo Tech Tamachi Campus
+  link: https://www.titech.ac.jp/english/maps/tamachi/
 
 - inverted: 
   img: icon-faq.jpeg
