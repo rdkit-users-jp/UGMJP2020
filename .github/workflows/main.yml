@@ -13,7 +13,8 @@ jobs:
 
       - uses: whoan/docker-build-with-cache-action@v4
         with:
-          image_name: ruby:2.4.0
+          image_name: ruby
+          image_tag: 2.4.0
 
       - name: Build & Deploy to GitHub Pages
         env: 
