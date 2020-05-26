@@ -15,6 +15,7 @@ jobs:
         with:
           image_name: ruby
           image_tag: 2.4.0
+          push_image_and_stages: false
 
       - name: Build & Deploy to GitHub Pages
         env: 
