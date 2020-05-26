@@ -1,0 +1,257 @@
+Sending build context to Docker daemon  13.22MB
+Step 1/6 : FROM ruby:2.4
+2.4: Pulling from library/ruby
+f15005b0235f: Pulling fs layer
+41ebfd3d2fd0: Pulling fs layer
+b998346ba308: Pulling fs layer
+f01ec562c947: Pulling fs layer
+2447a2c11907: Pulling fs layer
+1915e6344d7f: Pulling fs layer
+e867cf779be3: Pulling fs layer
+62af18474b7a: Pulling fs layer
+2447a2c11907: Waiting
+1915e6344d7f: Waiting
+e867cf779be3: Waiting
+62af18474b7a: Waiting
+f01ec562c947: Waiting
+41ebfd3d2fd0: Verifying Checksum
+41ebfd3d2fd0: Download complete
+b998346ba308: Verifying Checksum
+b998346ba308: Download complete
+f15005b0235f: Verifying Checksum
+f15005b0235f: Download complete
+f01ec562c947: Verifying Checksum
+f01ec562c947: Download complete
+1915e6344d7f: Verifying Checksum
+1915e6344d7f: Download complete
+62af18474b7a: Verifying Checksum
+62af18474b7a: Download complete
+e867cf779be3: Verifying Checksum
+e867cf779be3: Download complete
+2447a2c11907: Verifying Checksum
+2447a2c11907: Download complete
+f15005b0235f: Pull complete
+41ebfd3d2fd0: Pull complete
+b998346ba308: Pull complete
+f01ec562c947: Pull complete
+2447a2c11907: Pull complete
+1915e6344d7f: Pull complete
+e867cf779be3: Pull complete
+62af18474b7a: Pull complete
+Digest: sha256:c15e108473724fd2fde6045657f905b411eea638be1ca97713a462e90db78da7
+Status: Downloaded newer image for ruby:2.4
+ ---> f172588bbb0b
+Step 2/6 : COPY Gemfile* ./
+ ---> 7335022aaed0
+Step 3/6 : RUN bundle install
+ ---> Running in 6e2a07d64b00
+Fetching gem metadata from https://rubygems.org/.........
+Fetching concurrent-ruby 1.1.6
+Installing concurrent-ruby 1.1.6
+Fetching i18n 0.9.5
+Installing i18n 0.9.5
+Fetching minitest 5.14.0
+Installing minitest 5.14.0
+Fetching thread_safe 0.3.6
+Installing thread_safe 0.3.6
+Fetching tzinfo 1.2.6
+Installing tzinfo 1.2.6
+Fetching activesupport 5.2.4.1
+Installing activesupport 5.2.4.1
+Fetching public_suffix 3.1.1
+Installing public_suffix 3.1.1
+Fetching addressable 2.7.0
+Installing addressable 2.7.0
+Using bundler 1.17.3
+Fetching coffee-script-source 1.11.1
+Installing coffee-script-source 1.11.1
+Fetching execjs 2.7.0
+Installing execjs 2.7.0
+Fetching coffee-script 2.4.1
+Installing coffee-script 2.4.1
+Fetching colorator 1.1.0
+Installing colorator 1.1.0
+Fetching ruby-enum 0.7.2
+Installing ruby-enum 0.7.2
+Fetching commonmarker 0.17.13
+Installing commonmarker 0.17.13 with native extensions
+Fetching dnsruby 1.61.3
+Installing dnsruby 1.61.3
+Fetching eventmachine 1.2.7
+Installing eventmachine 1.2.7 with native extensions
+Fetching http_parser.rb 0.6.0
+Installing http_parser.rb 0.6.0 with native extensions
+Fetching em-websocket 0.5.1
+Installing em-websocket 0.5.1
+Fetching ffi 1.12.2
+Installing ffi 1.12.2 with native extensions
+Fetching ethon 0.12.0
+Installing ethon 0.12.0
+Fetching multipart-post 2.1.1
+Installing multipart-post 2.1.1
+Fetching faraday 1.0.0
+Installing faraday 1.0.0
+Fetching forwardable-extended 2.6.0
+Installing forwardable-extended 2.6.0
+Fetching gemoji 3.0.1
+Installing gemoji 3.0.1
+Fetching sawyer 0.8.2
+Installing sawyer 0.8.2
+Fetching octokit 4.16.0
+Installing octokit 4.16.0
+Fetching typhoeus 1.3.1
+Installing typhoeus 1.3.1
+Fetching github-pages-health-check 1.16.1
+Installing github-pages-health-check 1.16.1
+Fetching rb-fsevent 0.10.3
+Installing rb-fsevent 0.10.3
+Fetching rb-inotify 0.10.1
+Installing rb-inotify 0.10.1
+Fetching sass-listen 4.0.0
+Installing sass-listen 4.0.0
+Fetching sass 3.7.4
+Installing sass 3.7.4
+Fetching jekyll-sass-converter 1.5.2
+Installing jekyll-sass-converter 1.5.2
+Fetching listen 3.2.1
+Installing listen 3.2.1
+Fetching jekyll-watch 2.2.1
+Installing jekyll-watch 2.2.1
+Fetching kramdown 1.17.0
+Installing kramdown 1.17.0
+Fetching liquid 4.0.3
+Installing liquid 4.0.3
+Fetching mercenary 0.3.6
+Installing mercenary 0.3.6
+Fetching pathutil 0.16.2
+Installing pathutil 0.16.2
+Fetching rouge 3.13.0
+Installing rouge 3.13.0
+Fetching safe_yaml 1.0.5
+Installing safe_yaml 1.0.5
+Fetching jekyll 3.8.5
+Installing jekyll 3.8.5
+Fetching jekyll-avatar 0.7.0
+Installing jekyll-avatar 0.7.0
+Fetching jekyll-coffeescript 1.1.1
+Installing jekyll-coffeescript 1.1.1
+Fetching jekyll-commonmark 1.3.1
+Installing jekyll-commonmark 1.3.1
+Fetching jekyll-commonmark-ghpages 0.1.6
+Installing jekyll-commonmark-ghpages 0.1.6
+Fetching jekyll-default-layout 0.1.4
+Installing jekyll-default-layout 0.1.4
+Fetching jekyll-feed 0.13.0
+Installing jekyll-feed 0.13.0
+Fetching jekyll-gist 1.5.0
+Installing jekyll-gist 1.5.0
+Fetching jekyll-github-metadata 2.13.0
+Installing jekyll-github-metadata 2.13.0
+Fetching mini_portile2 2.4.0
+Installing mini_portile2 2.4.0
+Fetching nokogiri 1.10.8
+Installing nokogiri 1.10.8 with native extensions
+Fetching html-pipeline 2.12.3
+Installing html-pipeline 2.12.3
+Fetching jekyll-mentions 1.5.1
+Installing jekyll-mentions 1.5.1
+Fetching jekyll-optional-front-matter 0.3.2
+Installing jekyll-optional-front-matter 0.3.2
+Fetching jekyll-paginate 1.1.0
+Installing jekyll-paginate 1.1.0
+Fetching jekyll-readme-index 0.3.0
+Installing jekyll-readme-index 0.3.0
+Fetching jekyll-redirect-from 0.15.0
+Installing jekyll-redirect-from 0.15.0
+Fetching jekyll-relative-links 0.6.1
+Installing jekyll-relative-links 0.6.1
+Fetching rubyzip 2.2.0
+Installing rubyzip 2.2.0
+Fetching jekyll-remote-theme 0.4.1
+Installing jekyll-remote-theme 0.4.1
+Fetching jekyll-seo-tag 2.6.1
+Installing jekyll-seo-tag 2.6.1
+Fetching jekyll-sitemap 1.4.0
+Installing jekyll-sitemap 1.4.0
+Fetching jekyll-swiss 1.0.0
+Installing jekyll-swiss 1.0.0
+Fetching jekyll-theme-architect 0.1.1
+Installing jekyll-theme-architect 0.1.1
+Fetching jekyll-theme-cayman 0.1.1
+Installing jekyll-theme-cayman 0.1.1
+Fetching jekyll-theme-dinky 0.1.1
+Installing jekyll-theme-dinky 0.1.1
+Fetching jekyll-theme-hacker 0.1.1
+Installing jekyll-theme-hacker 0.1.1
+Fetching jekyll-theme-leap-day 0.1.1
+Installing jekyll-theme-leap-day 0.1.1
+Fetching jekyll-theme-merlot 0.1.1
+Installing jekyll-theme-merlot 0.1.1
+Fetching jekyll-theme-midnight 0.1.1
+Installing jekyll-theme-midnight 0.1.1
+Fetching jekyll-theme-minimal 0.1.1
+Installing jekyll-theme-minimal 0.1.1
+Fetching jekyll-theme-modernist 0.1.1
+Installing jekyll-theme-modernist 0.1.1
+Fetching jekyll-theme-primer 0.5.4
+Installing jekyll-theme-primer 0.5.4
+Fetching jekyll-theme-slate 0.1.1
+Installing jekyll-theme-slate 0.1.1
+Fetching jekyll-theme-tactile 0.1.1
+Installing jekyll-theme-tactile 0.1.1
+Fetching jekyll-theme-time-machine 0.1.1
+Installing jekyll-theme-time-machine 0.1.1
+Fetching jekyll-titles-from-headings 0.5.3
+Installing jekyll-titles-from-headings 0.5.3
+Fetching jemoji 0.11.1
+Installing jemoji 0.11.1
+Fetching minima 2.5.1
+Installing minima 2.5.1
+Fetching unicode-display_width 1.6.1
+Installing unicode-display_width 1.6.1
+Fetching terminal-table 1.8.0
+Installing terminal-table 1.8.0
+Fetching github-pages 204
+Installing github-pages 204
+Bundle complete! 4 Gemfile dependencies, 84 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+Post-install message from dnsruby:
+Installing dnsruby...
+  For issues and source code: https://github.com/alexdalitz/dnsruby
+  For general discussion (please tell us how you use dnsruby): https://groups.google.com/forum/#!forum/dnsruby
+Post-install message from sass:
+
+Ruby Sass has reached end-of-life and should no longer be used.
+
+* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+  primary implementation: https://sass-lang.com/install
+
+* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+  sassc gem: https://github.com/sass/sassc-ruby#readme
+
+* For more details, please refer to the Sass blog:
+  https://sass-lang.com/blog/posts/7828841
+
+Post-install message from html-pipeline:
+-------------------------------------------------
+Thank you for installing html-pipeline!
+You must bundle Filter gem dependencies.
+See html-pipeline README.md for more details.
+https://github.com/jch/html-pipeline#dependencies
+-------------------------------------------------
+Removing intermediate container 6e2a07d64b00
+ ---> 6de98fe2c88b
+Step 4/6 : ENV LC_ALL C.UTF-8
+ ---> Running in b4e9e2944f79
+Removing intermediate container b4e9e2944f79
+ ---> f50b7717fd0f
+Step 5/6 : ENV LANG en_US.UTF-8
+ ---> Running in 17e7c215842f
+Removing intermediate container 17e7c215842f
+ ---> f8a81629ff6f
+Step 6/6 : ENV LANGUAGE en_US.UTF-8
+ ---> Running in 24fde3b8ed60
+Removing intermediate container 24fde3b8ed60
+ ---> b1ddd73a489e
+Successfully built b1ddd73a489e
+Successfully tagged my_awesome_image:latest

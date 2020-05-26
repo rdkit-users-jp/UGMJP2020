@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RDKit User Group Meeting 2020</title>
+    <description>UGM JP 2020 has been cancelled due to the influence of COVID-19. We deeply apologize to everyone who was planning to participate in UGM JP 2020.
+</description>
+    <link>https://rdkit-users-jp.github.io/UGMJP2020/</link>
+    <atom:link href="https://rdkit-users-jp.github.io/UGMJP2020/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 26 May 2020 12:03:47 +0000</pubDate>
+    <lastBuildDate>Tue, 26 May 2020 12:03:47 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+  </channel>
+</rss>
